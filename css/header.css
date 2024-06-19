@@ -1,0 +1,121 @@
+:root {
+    --zHeader:#8f338a;
+    --zCaroussels:rgb(101, 34, 103);
+    --h2: rgb(140, 47, 136);
+    --tailleMax: 1600px;
+}
+
+.carousel-item {
+    height: 95vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.violet {
+    background-color:var(--zHeader);
+
+}
+a.navbar-brand, a.nav-link {
+    color:white;
+}
+div .nav-link {
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+div .nav-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-color: white;
+
+    text-underline-offset: 5px;
+    background-color: #ffffff;
+
+}
+
+div .carousel-item {
+    background-color:var(--zCaroussels);
+}
+
+.barre {
+    width: 100%;
+    margin-bottom:0;
+}
+
+h2 {
+    margin: 0 2rem 2rem 2rem;
+    color:var(--h2);
+}
+h2:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+
+/* styles.css */
+.container-fluid {
+    width: 100%;
+    max-width: var(--tailleMax); /* Largeur maximale du conteneur principal */
+    margin: 0 auto; /* Centrer le conteneur */
+
+}
+
+.main-content {
+    flex: 1; /* Prend tout l'espace disponible */
+    background-color: #f8f9fa; /* Couleur de fond pour le main */
+    border: 1px solid #dee2e6; /* Bordure pour le main */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre pour le main */
+    width:100%;
+}
+
+.box-aside-content {
+    padding: 1rem; /* Padding pour les asides */
+    height: 40%;
+    position:fixed;
+    top:30%;
+}
+
+.aside-content {
+    flex: 0 0 200px; /* Largeur fixe pour les asides */
+    padding: 1rem; /* Padding pour les asides */
+    margin: 1rem; /* Marge autour des asides */
+    height: 100%;
+}
+
+@media (max-width: 1600px) {
+    .aside-content {
+        display: none; /* Masquer les asides sous 1200px */
+    }
+}
+
+.highlight {
+    background-color: var(--zHeader);
+    color:white;
+    transition: background-color 0.5s ease-out;
+}
+
+p.aPropos {
+    margin:2rem;
+}
+
+@media (max-width: 1100px) {
+    .my-5 {
+        margin-top: 1rem !important;
+    }
+    .disparait {
+        display: none;
+    }
+}
+
+.index {
+    padding:6px 10px;
+    margin:30px 0;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
