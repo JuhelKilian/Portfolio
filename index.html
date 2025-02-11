@@ -30,10 +30,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#aPropos">A propos de moi</a>
+                    <a class="nav-link" href="#formation">Ma formation</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#formation">Ma formation</a>
+                    <a class="nav-link" href="#projets">Mes projets</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#compétences">Mes compétences</a>
@@ -54,7 +54,7 @@
         <div class="box-aside-content">
             <a href="#aPropos"><p class="index" id="LaPropos">A propos</p></a>
             <a href="#formation"><p class="index" id="Lformation">Formation</p></a>
-            <a href="#projet"><p class="index" id="Lprojets">Projets</p></a>
+            <a href="#projets"><p class="index" id="Lprojets">Projets</p></a>
             <a href="#compétences"><p class="index" id="Lcompétences">Compétences</p></a>
             <a href="#contact"><p class="index" id="Lcontact">Contact</p></a>
         </div>
@@ -65,7 +65,7 @@
         <section id="aPropos">
 
 
-            <div class="container my-5">
+            <div class="container my-5 SaPropos aPropos">
                 <div class="row align-items-center">
 
                     <div class="container my-5">
@@ -123,7 +123,7 @@
                                 </p>
                             </div>
                             <div class="col-12 col-lg-4 order-1 order-lg-1 text-center disparait">
-                                <img src="https://via.placeholder.com/300" class="img-fluid rounded img-overlay" alt="Image Placeholder">
+                                <img src="./Images/Chevrollier.jpeg" class="img-fluid rounded img-overlay t300" alt="Image Placeholder">
                             </div>
                         </div>
                     </div>
@@ -140,22 +140,15 @@
                             <div class="col-12 col-lg-8 order-1 order-lg-1">
                                 <p class="lead aPropos">Baccalauréat général au lycée Emmanuel Mounier</p>
                                 <p class="aPropos">
-                                    Je m'appelle Kilian Juhel, j'ai 18 ans et je suis actuellement
-                                    en première année de BTS Services Informatiques aux Organisations (SIO),
-                                    option Solutions Logicielles et Applications Métiers (SLAM).
-                                    Passionné par la cybersécurité, mon objectif est de
-                                    devenir ingénieur dans ce domaine.
-                                    Depuis toujours, l'informatique me fascine,
-                                    ce qui m'a naturellement conduit à choisir ce BTS.
-                                    À l'issue de cette formation, j'ambitionne de
-                                    poursuivre mes études en intégrant une école d'ingénieur
-                                    pour obtenir un master.
-                                    <br>
-                                    <br>Pour toute information complémentaire, vous pouvez télécharger mon CV ci-dessous.
+                                    Depuis la classe de quatrième, la programmation m'attire. En rentrant au lycée, je voulais déjà travailler dans l'informatique.
+                                    J'ai donc fait un baccalauréat général avec spécialités Nsi (Numérique)
+                                    J'ai également pris la spécialité mathématiques, que j'ai gardé avec la Nsi en terminale, car elle me permettait de m'ouvrir des portes pour mes études futures
+                                    J'ai choisi LLCER Anglais car une bonne maîtrise de l'anglais est fondamental dans l'informatique.
+                                    J'ai donc eu mon baccalauréat avec la mention bien en 2023
                                 </p>
                             </div>
                             <div class="col-12 col-lg-4 order-2 order-lg-2 text-center disparait">
-                                <img src="https://via.placeholder.com/300" class="img-fluid rounded img-overlay" alt="Image Placeholder">
+                                <img src="./Images/Mounier.png" class="img-fluid rounded img-overlay t300" alt="Image Placeholder">
                             </div>
                         </div>
                     </div>
@@ -166,8 +159,8 @@
 
         </section>
 
-        <section id="compétences">
-            <h2>Mes Compétences</h2>
+        <section id="projets">
+            <h2>Mes projets</h2>
 
 <!-- Mes compétences -->
 
@@ -182,25 +175,36 @@
         </div>
 
         <div class="carousel-inner">
-            <div class="carousel-item active carousel1">
+            <div class="carousel-item sirius active" id="1">
                 <div class="carousel-caption">
-                    <h5>Projet n°1</h5>
-                    <p>Ceci est un texte de présentation du projet.</p>
+                    <h5>Sirius</h5>
+                    <p>Sirius est un projet créé en 2023 par 3 élèves de terminale.
+                    Il s'agit d'un jeu bac à sable ou les utilisateurs sont libres de
+                    s'amuser, d'experimenter avec des balles complétements personnalisables.<br>
+                        Cliquez pour en savoir plus</p>
                 </div>
             </div>
-            <div class="carousel-item carousel2">
+            <div class="carousel-item" id="2">
                 <div class="carousel-caption">
-                    <h5>Projet n°2</h5>
-                    <p>Ceci est un texte de présentation du projet.</p>
+                    <h5>Bois du Roy</h5>
+                    <p>Pendant cette première année de BTS, on a eu pour projet de faire
+                    une suite web de gestion de note de frais. Ce projet couvrait l'ensemble
+                    des notions utiles pour le Web : BDD, relations clients-serveyrs, cookies,
+                    session, et de la cybersécurité.<br><br>
+                        Cliquez pour en savoir plus</p>
                 </div>
             </div>
-            <div class="carousel-item carousel3">
+            <div class="carousel-item" id="3">
                 <div class="carousel-caption">
-                    <h5>Projet n°3</h5>
-                    <p>Ceci est un texte de présentation du projet.</p>
+                    <h5>Stage de première année</h5>
+                    <p>Lors de mon stage de première année de BTS SIO, j'ai fait mon stage au sein du service informatique de la police
+                    national, au SDAN49. J'y ai travaillé mes compétences en réseau et ai vu comment gérer et sécuriser
+                        un réseau d'"entreprise".
+                        <br><br>Cliquez pour en savoir plus
+                    </p>
                 </div>
             </div>
-            <div class="carousel-item carousel4">
+            <div class="carousel-item" id="4">
                 <div class="carousel-caption">
                     <h5>Projet n°4</h5>
                     <p>Ceci est un texte de présentation du projet.</p>
@@ -217,16 +221,304 @@
         </button>
     </div>
         </section>
-        <section id="contact">
-            <h2>Me contacter</h2>
+
+        <section id="compétences">
+            <br>
+            <h2>Mes Compétences</h2>
+
+            <h3>Developpement</h3>
+            <!-- Dev Web -->
+            <div class="accordion" id="accordionDevWeb">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingDevWeb">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDevWeb" aria-expanded="false" aria-controls="collapseDevWeb">
+                            Dev Web
+                        </button>
+                    </h4>
+                    <div id="collapseDevWeb" class="accordion-collapse collapse" aria-labelledby="headingDevWeb" data-bs-parent="#accordionDevWeb">
+                        <div class="accordion-body">
+                            <p>
+                                Texte
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dev d'application -->
+            <div class="accordion" id="accordionDevApplication">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingDevApplication">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDevApplication" aria-expanded="false" aria-controls="collapseDevApplication">
+                            Dev d'application
+                        </button>
+                    </h4>
+                    <div id="collapseDevApplication" class="accordion-collapse collapse" aria-labelledby="headingDevApplication" data-bs-parent="#accordionDevApplication">
+                        <div class="accordion-body">
+                            <p>
+                                Texte
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dev Mobile -->
+            <div class="accordion" id="accordionDevMobile">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingDevMobile">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDevMobile" aria-expanded="false" aria-controls="collapseDevMobile">
+                            Dev mobile
+                        </button>
+                    </h4>
+                    <div id="collapseDevMobile" class="accordion-collapse collapse" aria-labelledby="headingDevMobile" data-bs-parent="#accordionDevMobile">
+                        <div class="accordion-body">
+                            <p>
+                                Texte
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bases de données relationnelles et NoSQL (2ème année) -->
+            <div class="accordion" id="accordionDatabases">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingDatabases">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDatabases" aria-expanded="false" aria-controls="collapseDatabases">
+                            Bases de données relationnelles et NoSQL (2ème année)
+                        </button>
+                    </h4>
+                    <div id="collapseDatabases" class="accordion-collapse collapse" aria-labelledby="headingDatabases" data-bs-parent="#accordionDatabases">
+                        <div class="accordion-body">
+                            <p>
+                                Texte
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <h3>Système et réseau</h3>
+
+            <!-- Réseau -->
+            <div class="accordion" id="accordionRéseau">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingNetwork">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNetwork" aria-expanded="false" aria-controls="collapseNetwork">
+                            Réseau
+                        </button>
+                    </h4>
+                    <div id="collapseNetwork" class="accordion-collapse collapse" aria-labelledby="headingNetwork" data-bs-parent="#accordionRéseau">
+                        <div class="accordion-body">
+                            <p>Salle des serveurs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Installation d'ordinateurs -->
+            <div class="accordion" id="accordionPC">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingInstallationComputers">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstallationComputers" aria-expanded="false" aria-controls="collapseInstallationComputers">
+                            Installation d'ordinateurs
+                        </button>
+                    </h4>
+                    <div id="collapseInstallationComputers" class="accordion-collapse collapse" aria-labelledby="headingInstallationComputers" data-bs-parent="#accordionPC">
+                        <div class="accordion-body">
+                            <p>-> Windows -> Automatisé ? -> serveur MDT -> PXE
+                            <br>Non automatisé -> Clé USB si panne</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AD -->
+            <div class="accordion" id="accordionAD">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingAD">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAD" aria-expanded="false" aria-controls="collapseAD">
+                            AD
+                        </button>
+                    </h4>
+                    <div id="collapseAD" class="accordion-collapse collapse" aria-labelledby="headingAD" data-bs-parent="#accordionAD">
+                        <div class="accordion-body">
+                            <p>
+                            Nommage PC - Utilisateurs GPO - Regroupement / Centralisation<br>
+                                NeoParc pour : <br>- Prendre controle (maj / installer applis de sécurité)
+                                <br> - Reinitialiser composant de confiances + téléphone
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Virtualisation -->
+            <div class="accordion" id="accordionVirtualisation">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingVirtualization">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVirtualization" aria-expanded="false" aria-controls="collapseVirtualization">
+                            Virtualisation
+                        </button>
+                    </h4>
+                    <div id="collapseVirtualization" class="accordion-collapse collapse" aria-labelledby="headingVirtualization" data-bs-parent="#accordionVirtualisation">
+                        <div class="accordion-body">
+                            <p>2 Hyper V solution de Microsoft pour Virtualiser<br>
+                            Serveurs virtualisés<br>
+                            Replication : copier l'entièreté des serveurs (+données)
+                            pour : <br>
+                            - Disponibilité
+                            - passer sur le deuxième Hyper V<br>
+                            Sauvegarde VEEAM deux sauvegardes
+                             + archivage</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Téléphonie IP -->
+            <div class="accordion" id="accordionTel">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingIPTelephony">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIPTelephony" aria-expanded="false" aria-controls="collapseIPTelephony">
+                            Téléphonie IP
+                        </button>
+                    </h4>
+                    <div id="collapseIPTelephony" class="accordion-collapse collapse" aria-labelledby="headingIPTelephony" data-bs-parent="#accordionTel">
+                        <div class="accordion-body">
+                            <p>
+                            Annuaire téléphonique pour modifications :<br>
+                                Export en .csv -> Excel + commandes Excel pour reperer : <br>
+                                - Postes libres<br>
+                                - Doublons
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Cybersécurité</h3>
+
+            <!-- Réseau -->
+            <div class="accordion" id="accordionCyber">
+                <div class="accordion-item">
+                    <h4 class="accordion-header" id="headingCyber">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCyber" aria-expanded="false" aria-controls="collapseNetwork">
+                            Réseau
+                        </button>
+                    </h4>
+                    <div id="collapseCyber" class="accordion-collapse collapse" aria-labelledby="headingNetwork" data-bs-parent="#accordionCyber">
+                        <div class="accordion-body">
+                            <p>Texte</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
+<br>
+        <section id="contact">
+            <h2 class="mb-4">Contactez-moi</h2>
+            <p class="m-5">
+            Pour toute question ou demande d'information, veuillez remplir le formulaire ci-dessous. Je m'efforcerai de vous répondre rapidement et efficacement.
+            </p>
+            <div class="my-5 m-5">
+
+                <form>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nom <span class="rouge">*</span></label>
+                                <input type="text" class="form-control custom-border" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="surname" class="form-label">Prénom</label>
+                                <input type="text" class="form-control custom-border" id="surname">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Adresse e-mail <span class="rouge">*</span></label>
+                                <input type="email" class="form-control custom-border" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="tel" class="form-label">Téléphone</label>
+                                <input type="tel" class="form-control custom-border" id="tel">
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Objet <span class="rouge">*</span></label>
+                                <input type="text" class="form-control custom-border" id="subject">
+                            </div>
+                        </div>
+                        <div class="col-md-7 d-flex flex-column justify-content-between">
+                            <div class="mb-3 h-100">
+                                <label for="message" class="form-label">Message <span class="rouge">*</span></label>
+                                <textarea class="form-control custom-border" id="message" required></textarea>
+                            </div>
+                            <br>
+
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <button type="submit" class="btn btn-primary align-self-end">Envoyer</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+
+
+
+
     </main>
 </div>
 
 </div>
 
+<div id="pageAjoutJustificatif" class="container" hidden>
+    <div class="containerAjoutJust" action="Note.php" method="post" enctype="multipart/form-data" id="formAjoutJustificatif">
+
+        <div class="row padd">
+            <div class="divBoutons">
+                <button onclick="fermeture();" class="btn fermer">X</button>
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <h2 id="titreProjet">Titre</h2>
+                </div>
+                <div class="row">
+                    <p id="paraProjet">Paragraphe ParagrapheParagraphe Paragraphe
+                        Paragraphe Paragraphe Paragraphe Paragraphe Paragraphe Paragraphe
+                        Paragraphe Paragraphe Paragraphe Paragraphe Paragraphe Paragraphe
+                        Paragraphe Paragraphe Paragraphe Paragraphe Paragraphe Paragraphe
+                        Paragraphe Paragraphe Paragraphe Paragraphe Paragraphe Paragraphe
+                        Paragraphe Paragraphe Paragraphe </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <img id="photoProjet">
+            </div>
+        </div>
 
 
+
+    </div>
+</div>
+
+<footer class="violet py-3">
+    <div class="footer container d-flex justify-content-between align-items-center">
+        <span class="text-white">Site réalisé par Kilian Juhel avec <span style="color: red;">❤</span></span>
+        <div>
+            <a href="https://fr.linkedin.com/in/kilian-juhel-9689392aa" class="text-white me-3" target="_blank">LinkedIn</a>
+            <a href="./CV Juhel Kilian.pdf" class="text-white" target="_blank">Télécharger mon CV</a>
+            <a href="./Mentions légales" class="text-white">Mentions légales</a>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
